@@ -12,14 +12,7 @@ function Checkout() {
                 <img className='checkout__ad' src="https://m.media-amazon.com/images/G/01/AdProductsWebsite/images/AUX/ILB_DarkBackground_2_NotApproved._TTW_.jpg" alt="" />
 
                 <div>
-                    <h2 className='checkout__title'>Your Shopping Basket</h2>
-                    {/* <CheckoutProduct
-                        id="2182"
-                        title="The Alchemist"
-                        price={299}
-                        image="https://m.media-amazon.com/images/I/71aFt4+OTOL.jpg"
-                        rating={5}
-                    /> */}
+                    <h2 className='checkout__title'>shopping basket</h2>
                     {basket.map(item => (
                         <CheckoutProduct
                             id={item.id}

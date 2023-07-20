@@ -4,11 +4,11 @@
     align-items: center;
     background-color: black;
     position: sticky;
-    top: 0;
-    z-index: 100;     
+    z-index: 100;   
+    width: 100%;  
 }
 
-.header__logo{
+.header__logo {
     width: 100px;
     object-fit: contain;
     margin: 0 20px;
@@ -54,11 +54,13 @@
     font-size: 13px;
     font-weight: 800;
 }
+
 .header__optionBasket{
     display: flex;
     align-items: center;
     color: white;
 }
+
 .header__basketCount{
     margin-left: 10px;
     margin-right: 10px;

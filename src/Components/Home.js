@@ -21,22 +21,21 @@ function Home({ slides }) {
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
   }
+  
   return (
     <div className='home'>
       <div className="home__container">
-        <ArrowBackIosIcon className='left' onClick={nextSlide} />
+        {/* <ArrowBackIosIcon className='left' onClick={nextSlide} />
         <ArrowForwardIosIcon className='right' onClick={prevSlide} />
         {Sliderimg.map((slide, index) => {
           return (
             <div className={index === cur ? 'slide active' : 'slide'} key={index}>
-              {index === cur && (<img className='home__image' src={slide.image} alt="" />)}
-              
+              {index === cur && (<img className='home__image' src={slide.image} alt="" />)}        
             </div>
-
           )
-        })}
+        })} */}
 
-        {/* <img className='home__image' src="https://m.media-amazon.com/images/I/81ps2f268cL._SX3000_.jpg" alt="" /> */}
+        <img className='home__image' src="  https://m.media-amazon.com/images/I/81ps2f268cL._SX3000_.jpg" alt="" />
         
         {/* row 1 */}
         <div className="home__row">

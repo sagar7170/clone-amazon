@@ -14,7 +14,6 @@ import { Sliderimg } from './Components/Sliderimg';
 
 function App() {
   const [{ basket }, dispatch] = useStateValue();
-
   useEffect(() => {
     onAuthStateChanged(auth, (authUser) => {
       console.log('the user is >>>', authUser);
@@ -35,7 +34,6 @@ function App() {
 
   return (
     <BrowserRouter>
-
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/" element={
@@ -62,6 +60,7 @@ function App() {
             <Orders/>
           </>
         } />
+        
       </Routes>
     </BrowserRouter>
   );
